@@ -18,3 +18,9 @@
 
 ### 0708
 * [job posting](./수업내용/0708/채용공고정리.md)
+
+### 0711
+* [python_day1](./수업내용/0711/python_day1.md)
+* [codeup problem 1~10](./Python_codeup/codeup_1-10.py)
+* [codeup problem 11~15](./Python_codeup/codeup_11-15.py)
+* [codeup problem 16~20](./Python_codeup/codeup_16-20.py)
