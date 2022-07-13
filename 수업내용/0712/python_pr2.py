@@ -1,5 +1,3 @@
-from turtle import end_fill
-
 
 n = 0
 total = 0

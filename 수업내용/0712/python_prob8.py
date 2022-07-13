@@ -3,8 +3,8 @@
 
 numbers = list(map(int, input().split()))
 
-maxnum = numbers[1] #최댓값
-max2num = numbers[1] #두 번째로 큰 값
+maxnum = numbers[0] #최댓값
+max2num = numbers[0] #두 번째로 큰 값
 
 for number in numbers :
     if maxnum < number :

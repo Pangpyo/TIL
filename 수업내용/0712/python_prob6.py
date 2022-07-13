@@ -4,7 +4,7 @@
 # numbers = [0, 20, 100]
 numbers = list(map(int, input().split()))
 
-maxnum = numbers[1]
+maxnum = numbers[0]
 
 for number in numbers :
     if maxnum < number :

@@ -3,7 +3,7 @@
 
 numbers = numbers = list(map(int, input().split()))
 
-minnum = numbers[1]
+minnum = numbers[0]
 
 for number in numbers :
     if minnum > number :
