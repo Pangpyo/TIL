@@ -1,5 +1,8 @@
 # 📖Today I Learned
 
+## Problem solve every day
+* [Codeip Python 기초 100제](./Python_codeup/README.md)
+
 ## 7월
 
 ### 0705
@@ -21,22 +24,32 @@
 
 ### 0711
 * [python_기초문법](./수업내용/0711/python_day1.md)
-* [codeup problem 1~10](./Python_codeup/codeup_1-10.py)
-* [codeup problem 11~15](./Python_codeup/codeup_11-15.py)
-* [codeup problem 16~20](./Python_codeup/codeup_16-20.py)
+* [codeup problem 1~10]
+* [codeup problem 11~15]
+* [codeup problem 16~20]
 
 ### 0712
 
 * [python_제어문](./수업내용/0712/python_day2.md) 및 phthon 연습문제 풀이
-* [codeup problem 21~25](./Python_codeup/codeup_21-25.py)
-* [codeup problem 26~30](./Python_codeup/codeup_26-30.py)
-* [codeup problem 31~35](./Python_codeup/codeup_31-35.py)
-* [codeup problem 36~40](./Python_codeup/codeup_36-40.py)
+* [codeup problem 21~25]
+* [codeup problem 26~30]
+* [codeup problem 31~35]
+* [codeup problem 36~40]
 
 ### 0713
 
 * [python_함수](./수업내용/0713/python_day3.md) 및 phthon 연습문제 풀이
-* [codeup problem 41~45](./Python_codeup/codeup_41-45.py)
-* [codeup problem 46~50](./Python_codeup/codeup_46-50.py)
-* [codeup problem 51~55](./Python_codeup/codeup_51-55.py)
-* [codeup problem 56~60](./Python_codeup/codeup_56-60.py)
+* [codeup problem 41~45]
+* [codeup problem 46~50]
+* [codeup problem 51~55]
+* [codeup problem 56~60]
+
+### 0714
+
+* [python_함수](./수업내용/0714/python_day4.md) 및 phthon 연습문제 풀이
+* [codeup problem 61-65]
+* [codeup problem 66-70]
+* [codeup problem 71-75]
+* [codeup problem 76-80]
+* [codeup problem 81-83]
+
