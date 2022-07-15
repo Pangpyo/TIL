@@ -41,4 +41,10 @@ for i in range(a, c+1) :
     s += chr(i)+' '
 print(s)
 
-6075
+# 6075
+# 정수(0 ~ 100) 1개를 입력받아 0부터 그 수까지 순서대로 출력해보자.
+
+c = int(input())
+
+for i in range(0, c+1) :
+    print(i)

@@ -53,3 +53,5 @@
 * [codeup problem 76-80]
 * [codeup problem 81-83]
 
+### 0715
+* [python 프로젝트 과제](./pytohn_project1\README.md)
