@@ -54,4 +54,4 @@
 * [codeup problem 81-83]
 
 ### 0715
-* [python 프로젝트 과제](./pytohn_project1\README.md)
+* [python 프로젝트 과제](./수업내용/0715/pytohn_project1/README.md)
