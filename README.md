@@ -30,7 +30,8 @@
 
 ### 0712
 
-* [python_제어문](./수업내용/0712/python_day2.md) 및 phthon 연습문제 풀이
+* [python_제어문](./수업내용/0712/python_day2.md)
+* [phthon 연습문제 1~8]
 * [codeup problem 21~25]
 * [codeup problem 26~30]
 * [codeup problem 31~35]
@@ -38,7 +39,8 @@
 
 ### 0713
 
-* [python_함수](./수업내용/0713/python_day3.md) 및 phthon 연습문제 풀이
+* [python_함수](./수업내용/0713/python_day3.md)
+* [phthon 예제 1~2, 연습문제 9~13]
 * [codeup problem 41~45]
 * [codeup problem 46~50]
 * [codeup problem 51~55]
@@ -46,7 +48,8 @@
 
 ### 0714
 
-* [python_함수](./수업내용/0714/python_day4.md) 및 phthon 연습문제 풀이
+* [python_함수](./수업내용/0714/python_day4.md)
+* [phthon 연습문제 14~18]
 * [codeup problem 61-65]
 * [codeup problem 66-70]
 * [codeup problem 71-75]
@@ -55,3 +58,11 @@
 
 ### 0715
 * [python 프로젝트 과제](./수업내용/0715/pytohn_project1/README.md)
+
+### 0716
+* [codeup problem 84-90]
+
+### 0718
+* [python_에러/예외 처리](./수업내용/0718/python_day5.md)
+* [python 예제 3~11, 연습문제 19]
+* [codeup problem 91-98]
