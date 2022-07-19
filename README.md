@@ -24,45 +24,42 @@
 
 ### 0711
 * [python_기초문법](./수업내용/0711/python_day1.md)
-* [codeup problem 1~10]
-* [codeup problem 11~15]
-* [codeup problem 16~20]
+* codeup problem 1~20
+
 
 ### 0712
 
 * [python_제어문](./수업내용/0712/python_day2.md)
-* [phthon 연습문제 1~8]
-* [codeup problem 21~25]
-* [codeup problem 26~30]
-* [codeup problem 31~35]
-* [codeup problem 36~40]
+* phthon 연습문제 1~8
+* codeup problem 21~40
+
 
 ### 0713
 
 * [python_함수](./수업내용/0713/python_day3.md)
-* [phthon 예제 1~2, 연습문제 9~13]
-* [codeup problem 41~45]
-* [codeup problem 46~50]
-* [codeup problem 51~55]
-* [codeup problem 56~60]
+* phthon 예제 1~2, 연습문제 9~13
+* codeup problem 41~60
+
 
 ### 0714
 
 * [python_함수](./수업내용/0714/python_day4.md)
-* [phthon 연습문제 14~18]
-* [codeup problem 61-65]
-* [codeup problem 66-70]
-* [codeup problem 71-75]
-* [codeup problem 76-80]
-* [codeup problem 81-83]
+* phthon 연습문제 14~18
+* codeup problem 61-83
+
 
 ### 0715
 * [python 프로젝트 과제](./수업내용/0715/pytohn_project1/README.md)
 
 ### 0716
-* [codeup problem 84-90]
+* codeup problem 84-90
 
 ### 0718
 * [python_에러/예외 처리](./수업내용/0718/python_day5.md)
-* [python 예제 3~11, 연습문제 19]
-* [codeup problem 91-98]
+* python 예제 3~11, 연습문제 19
+* codeup problem 91-98
+
+### 0719
+* [객체지향 프로그래밍이란?](./수업내용/0719/python_day9.md)
+* python 연습문제 20~21
+* SWEA 1545, 2029, 2070, 2071
