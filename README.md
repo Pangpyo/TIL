@@ -2,6 +2,8 @@
 
 ## Problem solve every day
 * [Codeip Python 기초 100제](./Python_codeup/README.md)
+* [SWEA](./SWEA/README.md)
+* [Backjoon](./Backjoon/README.md)
 
 ## 7월
 
@@ -67,3 +69,8 @@
 ### 0720
 * [파이썬 객체지향 프로그래밍](./수업내용/0720/python_day7.md)
 * SWEA 1284, 1933, 1986, 2019, 2050, 1204
+
+### 0721
+* [파이썬 응용/심화](./수업내용/0721/python_day8.md)
+* SWEA 1288, 1926, 1976, 1989
+* Backjoon 1002
