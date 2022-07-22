@@ -51,7 +51,7 @@
 
 
 ### 0715
-* [python 프로젝트 과제](./수업내용/0715/pytohn_project1/README.md)
+* [python 프로젝트1](./수업내용/0715/pytohn_project1/README.md)
 
 ### 0716
 * codeup problem 84-90
@@ -74,3 +74,6 @@
 * [파이썬 응용/심화](./수업내용/0721/python_day8.md)
 * SWEA 1288, 1926, 1976, 1989
 * Backjoon 1002
+
+### 0722
+* [python 프로젝트2](./수업내용/0722/python_project2/README.md)
