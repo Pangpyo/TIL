@@ -3,7 +3,7 @@
 ## Problem solve every day
 * [Codeip Python 기초 100제](./Python_codeup/README.md)
 * [SWEA](./SWEA/README.md)
-* [Backjoon](./Backjoon/README.md)
+* [Backjoon](./Baekjoon/README.md)
 
 ## 7월
 
@@ -73,11 +73,16 @@
 ### 0721
 * [파이썬 응용/심화](./수업내용/0721/python_day8.md)
 * SWEA 1288, 1926, 1976, 1989
-* Backjoon 1002
+* Baekjoon 1002
 
 ### 0722
 * [python 프로젝트2](./수업내용/0722/python_project2/README.md)
 
 ### 0724
 * 비개발자를 위한 IT 지식
-* Backjoon 1003 실패(동적계획법 지식 부족, 글로벌 변수 사용)
+* Baekjoon 1003 실패(동적계획법 지식 부족, 글로벌 변수 사용)
+
+### 0725
+
+* 알고리즘 Intro
+* Baekjoon input output 문제 19문제, 2480, 2577, 2908, 8958
