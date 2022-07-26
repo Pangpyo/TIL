@@ -143,3 +143,13 @@ for i in range(1, 1+N) : print(i)
 N = int(input())
 A = list(range(1, 1+N))
 for i in A[::-1] : print(i)
+
+# 19. 10871 X보다 작은 수 B4
+
+N, X = map(int, input().split())
+A = list(map(int, input().split()))
+
+for i in A :
+    if i < X :
+        print(i, end=' ')
+        
