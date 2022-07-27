@@ -1,7 +1,7 @@
 # 2908 상수 B2
 import sys
 
-sys.stdin = open("1_상수.txt")
+sys.stdin = open("s.txt")
 
 A, B = map(str, input().split()) #문자열을 뒤집기 위해 str으로 받았다.
 

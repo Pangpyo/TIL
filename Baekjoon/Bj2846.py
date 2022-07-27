@@ -1,7 +1,7 @@
 # 2846 오르막길 B1
 import sys
 
-sys.stdin = open("6_오르막길.txt")
+sys.stdin = open("input.txt")
 
 N = int(input())
 Pi = list(map(int, input().split()))

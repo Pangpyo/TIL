@@ -1,7 +1,7 @@
 # 2577 숫자의 개수 B2
 import sys
 
-sys.stdin = open("0_숫자의개수.txt")
+sys.stdin = open("input.txt")
 
 A = int(input())  
 B = int(input())

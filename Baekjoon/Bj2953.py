@@ -2,7 +2,7 @@
 
 import sys
 
-sys.stdin = open("7_나는요리사다.txt")
+sys.stdin = open("input.txt")
 score = [] # 각 참가자의 총 점수를 저장할 리스트 생성
 for i in range(5) : #5줄의 입력을 받음
     score.append(sum(list(map(int, input().split())))) # 입력받은 줄의 총 합을 저장
