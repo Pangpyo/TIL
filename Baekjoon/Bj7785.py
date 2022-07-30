@@ -16,3 +16,6 @@ for i in range(n) :
 access_record.sort(reverse = True) # 사전 역순으로 정렬
 
 print(*access_record, sep= '\n') # 리스트를 한 줄씩 띄어서 출력
+
+# Baekjoon 사이트에서 python3로는 시간초과가 뜨고 pypy3로는 된다... 왜???
+

@@ -1,10 +1,11 @@
 # 10816 숫자카드2 S4
 
-from bisect import bisect, bisect_left, bisect_right
-from msilib.schema import Binary
+
 import sys
 
 sys.stdin = open("input.txt")
+
+from bisect import bisect, bisect_left, bisect_right # 이분탐색을 통해 원하는 값의 가장 왼쪽과 오른쪽 인덱스값을 찾는다.
 
 N = int(input())
 card = list(map(int, input().split()))
@@ -18,6 +19,7 @@ for i in card_list :
 
 
 
+# 아래의 코드는 답은 나왔으나 시간복잡도가 높아 폐기하였다...
 
 # def binary_search(list, n) : # 이분탐색을 위한 함수 정의
 #     start = 0
@@ -57,4 +59,4 @@ for i in card_list :
 #     else :
 #         answer = binary_right(card, i)-binary_left(card, i)+1
 #         print(answer, end = ' ')
-    
+#

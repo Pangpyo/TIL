@@ -3,7 +3,7 @@
 ## Problem solve every day
 * [Codeip Python 기초 100제](./Python_codeup/README.md)
 * [SWEA](./SWEA/README.md)
-* [Backjoon](./Baekjoon/README.md)
+* [Baekjoon](./Baekjoon/README.md)
 
 ## 7월
 
@@ -98,3 +98,11 @@
 ### 0728
 * 알고리즘 자료구조, 알고리즘 문제풀이
 * Baekjoon 23825, 3052, 5622, 1292, 1357, 10816, 7785, 1302, 1764, 11652
+
+### 0729
+* 코딩 테스트로 취업하기, 모의 코딩테스트
+* SWEA 10505, 10804, 3456, 1228
+
+### 0730
+* 최적의 코딩을 결정하는 기본 알고리즘
+* SWEA 1936, 1938, 2025, 2027, 2043, 2046, 2047
