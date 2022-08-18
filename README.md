@@ -62,9 +62,15 @@
 * SWEA 1959
 
 ### 0816
-* [데이터베이스 기초, SQLite](./수업내용/0816/DB_day1.md)
-* [SQL 실습](./수업내용/0816/01실습.md), BOJ 17478
+* [데이터베이스 기초, SQLite](./수업내용/Database/DB_day1.md)
+* [SQL 실습](./수업내용/Database/01실습.md), BOJ 17478
 
 ### 0817
-* [SQLite 문법](./수업내용/0817/DB_day2.md)
-* [SQL 실습](./수업내용/0817/02실습.md)
+* [SQLite 문법](./수업내용/Database/DB_day2.md)
+* [SQL 실습](./수업내용/Database/02실습.md)
+* BOJ 2869, 2839, 1978, 2581
+
+### 0818
+* [SQLite 문법](./수업내용/Database/DB_day3.md)
+* [SQL 실습](./수업내용/Database/03실습.md)
+* BOJ 1244, 2618, 2635 (1914 하노이 탑 실패)
