@@ -74,3 +74,7 @@
 * [SQLite 문법](./수업내용/Database/DB_day3.md)
 * [SQL 실습](./수업내용/Database/03실습.md)
 * BOJ 1244, 2618, 2635 (1914 하노이 탑 실패)
+
+### 0819
+* [SQLite 문법](./수업내용/Database/DB_day4.md)
+* [SQL 실습](./수업내용/Database/04실습.md)
