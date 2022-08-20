@@ -1,3 +1,5 @@
+# 14889 스타트와 링크 S2
+
 from itertools import combinations
 import sys
 
