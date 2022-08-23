@@ -91,3 +91,8 @@
 * [SQLite JOIN](./수업내용/Database/DB_day5.md)
 * [SQL 실습](./수업내용/Database/05실습.md)
 * BOJ 14888, 7576, 7569, 1697, 12851 BOJ GOLD5 달성!!!!
+
+### 0823
+* [데이터베이스 모델링](./수업내용/Database/DB_day6.md)
+* [ERD 실습](./수업내용/0823/insta.drawio)
+* BOJ PS 11053, 11722, 2304
