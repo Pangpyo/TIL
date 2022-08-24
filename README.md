@@ -96,3 +96,7 @@
 * [데이터베이스 모델링](./수업내용/Database/DB_day6.md)
 * [ERD 실습](./수업내용/0823/insta.drawio)
 * BOJ PS 11053, 11722, 2304
+
+### 0824
+* [데이터베이스 ORM](./수업내용/ORM/DB_day7.md)
+* [ORM 실습](./수업내용/ORM/DB_07.md)
