@@ -25,6 +25,4 @@ minx = abs(side[(maxidx-1)%6]-side[(maxidx+1)%6])
 miny = abs(side[(mayidx-1)%6]-side[(mayidx+1)%6])
 smallsq = minx*miny
 
-
-
 print((bigsq-smallsq)*K)
