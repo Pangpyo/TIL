@@ -1,4 +1,4 @@
-# 9020 골드바흐의 추측
+# 9020 골드바흐의 추측 S2
 
 import sys
 sys.stdin = open('input.txt')
