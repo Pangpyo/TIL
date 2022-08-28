@@ -11,9 +11,7 @@ nums = list(map(int, input().split()))
 opernum = list(map(int, input().split()))
 
 oper = ['+']*opernum[0]+['-']*opernum[1]+['*']*opernum[2]+['%']*opernum[3] # 받아준 연산자의 개수를 리스트로 만들어줌
-opers = list(permutations(oper, N-1)) # N-1개의 연산자들을 순열을 찾아주는 함수를 이용해 모든 경우의 수를 리스트로 만들어줌
-
-
+opers = list(set(permutations(oper, N-1))) # N-1개의 연산자들을 순열을 찾아주는 함수를 이용해 모든 경우의 수를 리스트로 만들어줌
 min = 1000000000 # 문제에서 주어진 최대범위와 최소범위
 max = -1000000000
 for i in opers :
