@@ -87,6 +87,7 @@
   * <img src="web_day2.assets/image-20220830145751327.png" alt="image-20220830145751327" style="zoom:80%;" align="left"/>
 
   * <img src="web_day2.assets/image-20220830145806580.png" alt="image-20220830145806580" style="zoom:80%;" align="left"/>
+    
     * vw는 상대적인 사이즈로 크기가 달라 질 수 있음
 
 * 색상 키워드(background-color: red;)
@@ -151,7 +152,7 @@
 
 ### CSS 적용 우선순위 (cascading order)
 
-1. 중료도 (Importance) : 사용시 주의
+1. 중요도 (Importance) : 사용시 주의
    * !important
 2.  우선 순위 (Specificity)
    * 인라인 > id > class, 속성, pseudo-class > 요소, pseudo-element
