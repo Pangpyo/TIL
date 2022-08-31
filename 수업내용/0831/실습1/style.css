@@ -1,0 +1,42 @@
+/* 아래에 CSS를 작성해주세요. */
+
+.toptxt {
+    text-align: center;
+    line-height: 20%;
+    font-weight: 700;
+}
+.card {
+    display: flex;
+    width: 900px;
+    justify-content: flex-start;
+}
+
+.minicard {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.pic {
+    border-radius : 4%;
+}
+.minicardtxt {
+    margin: 5px 15px 5px 15px;
+    letter-spacing: -1px
+}
+.install1 {
+    font-size: 11px;
+    color:dimgray;
+    margin-bottom:0px;
+    letter-spacing: 0px
+}
+.install2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top:3px;
+    margin-bottom: 10px;
+}
+.install3 {
+    font-size: 7pt;
+    color:gray;
+}
+

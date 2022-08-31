@@ -1,0 +1,30 @@
+/* 아래에 CSS를 작성해주세요. */
+.card {
+    width : 300px;
+}
+.pic {
+    border-radius : 2%;
+    width : 300px;
+}
+.cardtxt {
+    margin: 5px 15px 5px 15px;
+}
+.txt1 {
+    font-size:12px;
+    color: gray;
+    letter-spacing: -1px;
+}
+.txt2 {
+    font-size:15px;
+    letter-spacing: -1px;
+    font-weight: lighter;
+}
+.txt3 {
+    font-weight: bold;
+    font-size:17px;
+}
+.txt4 {
+    font-weight: 900;
+    font-size:15px;
+    color: gray
+}
