@@ -8,6 +8,6 @@ Adp = [1]*N
 for i in range(N) :
     for j in range(i) :
         if A[j] < A[i] :
-            Adp[i] = max(Adp[i], Adp[j] + 1)
-
+            Adp[i] = Adp[j] + 1 if (Adp[j] + 1) > Adp[i] else Adp[i]
+        
 print(max(Adp))

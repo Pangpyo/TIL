@@ -139,3 +139,7 @@ CSS 원칙 III
     * <img src="web_day3.assets/image-20220831173004205.png" alt="image-20220831173004205" style="zoom: 67%;" align="left"/>
 
 * [연습해보기(Flexbox froggy)](https://flexboxfroggy.com/#ko)
+* 참조 사이트들
+  * [MDN](https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
+  * [MDN](https://developer.mozilla.org/ko/docs/Learn/CSS/CSS_layout/Flexbox#%EC%99%9C_flexbox%EC%9D%B8%EA%B0%80)
+  * [Learn CSS](https://web.dev/learn/css/the-cascade/)
