@@ -29,3 +29,4 @@
 ### 0905
 * [form, bootstrap](./수업내용/0905/web_day5.md)
 * [bootstrap 실습](./수업내용/0905/index.html) [form 실습](./수업내용/0905/login.html)
+* BOJ 1769
