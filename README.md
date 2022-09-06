@@ -34,3 +34,4 @@
 ### 0906
 * [bootstrap](./수업내용/0906/web_day6.md)
 * [bootstrap 실습](./수업내용/0906/실습6/main.html)
+* BOJ PS 1744 5052 10814 2108, GOLD4 달성
