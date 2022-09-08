@@ -40,3 +40,7 @@
 * [bootstrap grid](./수업내용/0907/web_day7.md)
 * [grid 실습](./수업내용/0907/index.html)
 * BOJ PS 18870 1946
+
+### 0908
+* [bootstrap page1](./수업내용/0908/index_1.html)
+* BOJ PS 5430
