@@ -1,3 +1,5 @@
+# programmers 외톨이 알파벳
+
 input_string="edeaaabbccd"
 
 def solution(input_string):
