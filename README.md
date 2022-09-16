@@ -69,5 +69,8 @@
 
 
 ### 0914
-* [java 맛보기](./수업내용/0915/web_day9.md)
-* programmers 체육대회
+* [java script 맛보기](./수업내용/0915/web_day9.md)
+* programmers 체육대회, 유전법칙
+
+### 0915
+* [java script 문법](./수업내용/0916/web_day10.md)
