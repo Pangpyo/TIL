@@ -62,22 +62,19 @@
 * [부트스트랩 페어 프로그래밍 프로젝트](./수업내용/0913/README.md)
 * BOJ PS 1599
 
-### 0913
+### 0914
 * [부트스트랩 페어 프로그래밍 프로젝트 1일차~2일차](./수업내용/0913/README.md)
 * [프로젝트 결과물](https://pangpyo.github.io/DHKP.github.io/)
 * BOJ PS 1431, programmers 외톨이 알파벳
 
 
-### 0914
+### 0915
 * [java script 맛보기](./수업내용/0915/web_day9.md)
 * programmers 체육대회, 유전법칙
 
-### 0915
-* [java script 문법](./수업내용/0916/web_day10.md)
-* BOJ PS 2638
-
 ### 0916
 * [java script 문법](./수업내용/0916/web_day10.md)
+* BOJ PS 2638
 
 ### 0917
 * BOJ 1946, 1599, 10814, 18870, 1431 알고리즘 코드리뷰
@@ -86,3 +83,7 @@
 ### 0918
 * [프로그래머스 PCCP 응시](./수업내용/0918/PCCP.pdf) 
 * BOJ PS 1351, programmers k진수소수구하기
+
+### 0919
+* [java script event](./수업내용/0919/web_day11.md)
+* [java 스크립트 실습, 비밀번호 확인해보기](./수업내용/0919/04_password.html)
