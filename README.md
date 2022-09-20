@@ -88,3 +88,7 @@
 * [java script event](./수업내용/0919/web_day11.md)
 * [java 스크립트 실습, 비밀번호 확인해보기](./수업내용/0919/04_password.html)
 * BOJ PS 1389
+
+### 0920
+* [java script 로또 추첨사이트 만들어보기](./수업내용/0920/index.html)
+* [로또 추첨 사이트](https://pangpyo.github.io/lotto/)

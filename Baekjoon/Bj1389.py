@@ -25,7 +25,6 @@ def bfsbacon(n) :
             if bacon[t] == 0 :
                 bacon[t] = d + 1
                 que.append((graph[t], bacon[t]))
-    print(bacon)
     return sum(bacon)+1
 ans = []
 for i in range(1, N+1) :
