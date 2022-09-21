@@ -92,3 +92,8 @@
 ### 0920
 * [java script 로또 추첨사이트 만들어보기](./수업내용/0920/index.html)
 * [로또 추첨 사이트](https://pangpyo.github.io/lotto/)
+
+### 0921
+* [django 시작](./수업내용/0921/Django_day1.md)
+* 해커톤 디지털 트랜스 포메이션 대회 준비
+* BOJ PS 1967
