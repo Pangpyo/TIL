@@ -97,3 +97,7 @@
 * [django 시작](./수업내용/0921/Django_day1.md)
 * 해커톤 디지털 트랜스 포메이션 대회 준비
 * BOJ PS 1967
+
+### 0922
+* [django 기초](./수업내용/0921/Django_day1.md)
+* BOJ 9019, programmer 카카오 기출 파괴되지 않은 건물
