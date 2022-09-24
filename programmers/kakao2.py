@@ -1,8 +1,6 @@
 from bisect import bisect_right
 
 def solution(cap, n, deliveries, pickups):
-
-    dis = 0
     dsum = [0]
     psum = [0]
     for i in range(n-1, -1 ,-1) :
@@ -20,7 +18,6 @@ def solution(cap, n, deliveries, pickups):
         if pickups[i] :
             pick = i+1
             break
-
     cnt = 0
     ans = 0
     while 1 :
@@ -34,4 +31,3 @@ def solution(cap, n, deliveries, pickups):
             break
 
     return ans
-# 테스트 케이스 13 15 18 실패
