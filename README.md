@@ -107,5 +107,5 @@
 * BOJ 1991 programmers 카카오 기출 신고 결과 받기, 양궁대회
 
 ### 0924
-* 카카오 코딩테스트 1차
+* [카카오 코딩테스트 1차](./programmers/2023kakao.md)
 * programmers 카카오 기출 양과 늑대
