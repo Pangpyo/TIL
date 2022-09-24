@@ -5,7 +5,7 @@ def solution(board, skills):
     M = len(board[0])
     nsum = [[0]*(M+1) for _ in range(N+1)]
     for skill in skills :
-        t, r1, c1, r2, c2, d = skill # 시간 복잡도를 줄이려면 누적합을 사용해야 한다.
+        t, r1, c1, r2, c2, d = skill # 시간 복잡도를 줄이려면 누적합을 사용해야한다.
         d = -d if t ==1 else d
         nsum[r1][c1] += d
         nsum[r1][c2+1] += -d
