@@ -109,3 +109,6 @@
 ### 0924
 * [카카오 코딩테스트 1차](./programmers/2023kakao.md)
 * programmers 카카오 기출 양과 늑대
+
+### 0925
+* BOJ PS 11000, 1874
