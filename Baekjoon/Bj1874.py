@@ -1,4 +1,6 @@
 # 1874 스택 수열 S2
+import sys
+input = sys.stdin.readline
 
 N = int(input())
 seq = []
@@ -18,7 +20,7 @@ for i in range(1, N+1) :
             j += 1
         else :
             break
-print(stack, seq)
+
 if stack == seq :
     print(*answer, sep='\n')
 else :
