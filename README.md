@@ -113,5 +113,11 @@
 ### 0925
 * BOJ PS 11000, 1874
 
-### 09026
+### 0926
 * [django 문법](./수업내용/0926/Django_day3.md)
+* BOJ PS 2212, 1092, 1715
+
+### 0927
+* [django URL, Template namespace](./수업내용/0927/django_day4.md)
+* [ORM 복습해보기](./수업내용/0927/%EC%8B%A4%EC%8A%B5.md)
+* 
