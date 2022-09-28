@@ -120,4 +120,8 @@
 ### 0927
 * [django URL, Template namespace](./수업내용/0927/django_day4.md)
 * [ORM 복습해보기](./수업내용/0927/%EC%8B%A4%EC%8A%B5.md)
+* BOJ PS 1339
+
+### 0928
+* [django 실습](./수업내용/0928/Django_day5.md)
 * 
