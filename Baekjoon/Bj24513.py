@@ -1,11 +1,9 @@
 # 24513 좀비 바이러스 G3
 
 from collections import deque
-from pprint import pprint
 import sys
 
 imput = sys.stdin.readline
-
 N, M = map(int, input().split())
 
 village = [list(map(int, input().split())) for _ in range(N)]
@@ -21,9 +19,7 @@ for i in range(N):
 dx = [-1, 0, 1, 0]
 dy = [0, 1, 0, -1]
 
-
 def bfs(x1, y1, x2, y2):
-    global bp
     que = deque([(x1, y1), (x2, y2)])
     visit[x1][y1] = 1
     visit[x2][y2] = 1
@@ -54,12 +50,9 @@ def bfs(x1, y1, x2, y2):
                 if visit[nx][ny] == visit[x][y] + 1:
                     village[nx][ny] += village[x][y]
 
-
 visit = [[0] * M for _ in range(N)]
 bfs(x1, y1, x2, y2)
-pprint(village)
 ans = [0, 0, 0]
-
 for i in range(N):
     for j in range(M):
         if village[i][j] == 1:
