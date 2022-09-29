@@ -125,3 +125,6 @@
 ### 0928
 * [django 실습](./수업내용/0928/Django_day5.md)
 * BOJ PS 2002, 13414
+
+### 0929
+* [django 실습](./수업내용/0929/Django_day6.md)
