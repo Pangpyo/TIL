@@ -129,3 +129,6 @@
 ### 0929
 * [django 실습](./수업내용/0929/Django_day6.md)
 * BOJ PS 19583,13904 programmers PS 행렬 테두리 회전하기, 로또의 최고순위와 최저 순위
+
+### 0930
+* [django 프로젝트](./수업내용/0930/README.md)
