@@ -1,0 +1,90 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container d-flex justify-content-center flex-column">
+    <img src="https://www.what-to-do.co.uk/wp-content/themes/whattodo/assets/svg/logo.svg">
+    <form class="row g-1 d-flex justify-content-center" action="{% url 'todos:create' %}">
+        <div class="col-5">
+            <input class="form-control form-control-sm" type="text" name="formcontent" id="todotext" maxlength="80"
+                placeholder="write to do" required>
+        </div>
+        <div class="col-2">
+            <input class="form-control form-control-sm" type="number" name="formpriority" id="todopriority"
+                maxlength="1" max="9" min="1" placeholder="priority" required>
+        </div>
+        <div class="col-auto" type="date">
+            <input type="date" placeholder="deadline" name="formdate" required>
+        </div>
+        <div class="col-1">
+            <input class="btn btn-primary btn-sm" type="submit" value="Add To-Do">
+        </div>
+    </form>
+    <h2>To do list</h2>
+    <table class="table table-warning table-bordered">
+        <thead>
+            <tr>
+                <th scope="col">priority</th>
+                <th scope="col">content</th>
+                <th scope="col">deadline</th>
+                <th scope="col">created_at</th>
+                <th scope="col">Done?</th>
+                <th scope="col">delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for todo in todos %}
+            {% if todo.completed == False %}
+            <tr>
+                <th scope="row" class="align-middle col-1">{{ todo.priority }}</th>
+                <td class="align-middle col-5">{{ todo.content }}</td>
+                <td class="align-middle col-2">{{ todo.deadline|timeuntil:todo.created_at }}</td>
+                <td class="align-middle col-2">{{ todo.created_at }}</td>
+                <td class="align-middle col-1">
+                    <a class="btn btn-success" href="{% url 'todos:completed' todo.id %}">
+                        Yes
+                    </a>
+                </td>
+                <td class="align-middle col-1"><a class="btn btn-danger"
+                        href="{% url 'todos:delete' todo.id %}">delete</a>
+                </td>
+            </tr>
+            {% endif %}
+            {% endfor %}
+        </tbody>
+    </table>
+    <h2>Done list</h2>
+    <table class="table table-success table-bordered">
+        <thead>
+            <tr>
+                <th scope="col">priority</th>
+                <th scope="col">content</th>
+                <th scope="col">deadline</th>
+                <th scope="col">created_at</th>
+                <th scope="col">back</th>
+                <th scope="col">delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for todo in todos %}
+            {% if todo.completed == True %}
+            <tr>
+                <th scope="row" class="align-middle col-1">{{ todo.priority }}</th>
+                <td class="align-middle col-5">{{ todo.content }}</td>
+                <td class="align-middle col-2">{{ todo.deadline|timeuntil:todo.created_at }}</td>
+                <td class="align-middle col-2">{{ todo.created_at }}</td>
+                <td class="align-middle col-1">
+                    <a class="btn btn-success" href="{% url 'todos:completed' todo.id %}">
+                        Yes
+                    </a>
+                </td>
+                <td class="align-middle col-1"><a class="btn btn-danger"
+                        href="{% url 'todos:delete' todo.id %}">delete</a>
+                </td>
+            </tr>
+            {% endif %}
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+<footer class="text-center pb-3 text-secondary">created by KP</footer>
+{% endblock %}
