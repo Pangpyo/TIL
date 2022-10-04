@@ -1,9 +1,9 @@
-# 2470 두 용액 G5
-
+# 2467 용액 G5
 
 N = int(input())
 
-liquid = sorted(list(map(int, input().split())))
+liquid = list(map(int, input().split()))
+
 a = 0
 b = N - 1
 ans = [liquid[a], liquid[b]]
