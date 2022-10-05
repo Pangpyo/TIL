@@ -25,3 +25,6 @@
 ### 1004
 * [Django crud 복습 및 정리](./수업내용/1004/Django_day7.md)
 * BOJ PS 11052, 11852, 2467
+
+### 1005
+* [Django admin, static](./수업내용/1005/Django_day8.md)
