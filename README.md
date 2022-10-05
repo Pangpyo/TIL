@@ -28,3 +28,4 @@
 
 ### 1005
 * [Django admin, static](./수업내용/1005/Django_day8.md)
+* BOJ PS 1987, 1449
