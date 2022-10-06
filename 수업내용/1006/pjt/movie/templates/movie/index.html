@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<div class="container py-5">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th scope="col">title</th>
+                <th scope="col">running time</th>
+                <th scope="col">created at</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for movie in movies %}
+            <tr>
+                <th scope="row" class="align-middle col-auto">
+                    <a class="btn border-white" href="{% url 'movie:detail' movie.pk %}">{{ movie.title }}</a>
+                </th>
+                <td class="align-middle col-auto">{{ movie.running_time }}minute</td>
+                <td class="align-middle col-auto">{{ movie.created_at }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

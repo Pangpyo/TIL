@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% load django_bootstrap5 %}
+{% load static %}
+{% block content %}
+<div class="py-5">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th scope="row" class="col-3">title</th>
+                <th>{{ movie.title }}</th>
+            </tr>
+            <tr>
+                <th scope="row">running time</th>
+                <td>{{ movie.running_time }}</td>
+            </tr>
+            <tr>
+                <th>updated at</th>
+                <td>{{ movie.updated_at }}</td>
+            </tr>
+        </thead>
+        <tbody>
+            <td colspan="2">
+                {{ movie.summary }}
+            </td>
+        </tbody>
+    </table>
+    <div class="d-flex flex-row-reverse">
+        <a class="btn btn-danger m-1" href="{% url 'movie:delete' movie.pk %}">delete</a>
+        <a class="btn btn-secondary m-1" href="{% url 'movie:update' movie.pk %}">modify</a>
+    </div>
+</div>
+{% endblock %}
