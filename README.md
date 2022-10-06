@@ -29,3 +29,6 @@
 ### 1005
 * [Django admin, static](./수업내용/1005/Django_day8.md)
 * BOJ PS 1987, 1449
+
+### 1006
+* [Django 영화 정보 사이트](./수업내용/1006/Django_day9.md)

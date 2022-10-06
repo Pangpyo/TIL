@@ -88,7 +88,7 @@ class Articles(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
 ```
 
-### 2. 이그레이션 파일 생성
+### 2. 마이그레이션 파일 생성
 
 ```
 $ python manage.py makemigrations
@@ -212,7 +212,7 @@ def create(request):
     return render(request, "articles/create.html")
 ```
 
-* index.html
+* create.html
 
 ```django
 <!-- articles/templates/articles/create.html -->
@@ -222,6 +222,7 @@ def create(request):
 {% block content %}
 <form action="{% url 'articles:create' %}" method="POST">
     {% csrf_token %}
+    {{ article_form.as_p }}
     <input type="submit">
 </form>
 {% endblock %}
