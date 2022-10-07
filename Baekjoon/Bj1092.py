@@ -20,3 +20,4 @@ else:
             if j:
                 print(boxes.pop(j - 1))  # 해당 값을 pop한 후 출력한다.
     print(t)
+# 메모리 32904 시간 248
