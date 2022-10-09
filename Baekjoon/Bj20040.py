@@ -20,6 +20,9 @@ def find(x):
         return y
 
 
+# 노드 x 가 어느 집합에 포함되어 있는지 찾는 연산
+
+
 def union(x, y, i):
     global ans
     x = find(x)
@@ -30,6 +33,8 @@ def union(x, y, i):
         if ans == 0:
             ans = i
 
+
+# 노드 x와 노드 y가 연결되기 때문에, 노드 x가 포함된 집합과 노드 y가 포함된 집합을 합치는 연산
 
 for i in range(m):
     u, v = map(int, input().split())

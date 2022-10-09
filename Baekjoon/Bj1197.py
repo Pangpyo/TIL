@@ -31,12 +31,14 @@ def union(x, y):
         return False
 
 
+# 유니온 파인드 함수 구현
+
 for i in range(E):
     graph.append(tuple(map(int, input().split())))
 
-graph.sort(key=lambda x: x[2])
+graph.sort(key=lambda x: x[2])  # 간선들을 크기가 작은 순으로 하나씩 검사한다.
 ans = 0
 for u, v, l in graph:
-    if union(u, v):
+    if union(u, v):  # 유니온 파인드를 할 때 x와 y가 사이클이 되지 않을 경우에만 간선의 길이를 더해준다.
         ans += l
 print(ans)
