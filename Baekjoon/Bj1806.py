@@ -10,16 +10,17 @@ else:
         nsum.append(nums[i] + nsum[i - 1])
     if S > nsum[-1]:
         print(0)
-    pre = 0
-    post = 1
-    ans = N
-    while 1:
-        s = nsum[post] - nsum[pre]
-        if s >= S:
-            ans = min(post - pre, ans)
-            pre += 1
-        elif s < S:
-            if post == N - 1:
-                break
-            post += 1
-    print(ans)
+    else:
+        pre = 0
+        post = 1
+        ans = N
+        while 1:
+            s = nsum[post] - nsum[pre]
+            if s >= S:
+                ans = min(post - pre, ans)
+                pre += 1
+            elif s < S:
+                if post == N - 1:
+                    break
+                post += 1
+        print(ans)
