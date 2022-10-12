@@ -50,3 +50,7 @@
 ### 1011
 * [Django Sign up](./수업내용/1011/Django_day9.md)
 * BOJ PS 23843
+
+### 1012
+* [Django Log in](./수업내용/1011/Django_day10.md)
+* 

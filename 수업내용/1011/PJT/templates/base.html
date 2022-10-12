@@ -29,9 +29,24 @@
                     <li class="nav-item">
                         <a class="nav-link active" href="{% url 'articles:index' %}">home</a>
                     </li>
+                    {% if request.user.is_authenticated %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'accounts:profile' user.pk %}">welcome, {{ user }}</a>
+                    </li>
+                    <li class="nav-item">
+                        <form action="{% url 'accounts:logout' %}" method="POST">
+                            {% csrf_token %}
+                            <input class="bg-dark border-0 nav-link py-1" type="submit" value="Logout">
+                        </form>
+                    </li>
+                    {% else %}
                     <li class="nav-item">
                         <a class="nav-link" href="{% url 'accounts:signup' %}">sign up</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'accounts:login' %}">login</a>
+                    </li>
+                    {% endif %}
                 </ul>
             </div>
         </div>
@@ -43,7 +58,7 @@
     {% bootstrap_javascript %}
     <footer class="text-center py-2">
         <div class="container sticky-bottom">
-            <p>Web-django Pair PJT, by KP, JS, BY</p>
+            <p>Web-django PJT, by KP</p>
         </div>
     </footer>
 </body>

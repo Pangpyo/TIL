@@ -250,5 +250,3 @@ def signup(request):
   ```
 
 * 회원가입 진행 후 테이블 확인
-
-![image-20221012012040667](Django_day9.assets/image-20221012012040667.png)

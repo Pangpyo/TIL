@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load django_bootstrap5 %}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+<div class="container p-5">
+    <div class="text-center">
+        <h2>User list</h2>
+    </div>
+    {% for user in users %}
+    <div class="card m-4">
+        <div class="card-body">
+            <h4 class="card-subtitle my-2">{{ user.username }}</h4>
+            <p class="card-text">user no. {{ user.pk }}</p>
+            <p class="card-text">joined at {{ user.date_joined|date:'Y-m-d H:i:s' }}</p>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock content %}
