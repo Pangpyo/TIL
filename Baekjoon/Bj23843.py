@@ -4,17 +4,15 @@ import heapq
 
 
 N, M = map(int, input().split())
+things = sorted(
+    list(map(int, input().split())), reverse=True
+)  # 충전시간이 긴 기기부터 충전하기 위해 정렬한다.
+sockets = [0] * M  # 콘센트의 개수.
+heapq.heapify(sockets)  # 힙으로 바꿔준다
+for thing in things:
+    heapq.heappush(
+        sockets, thing + heapq.heappop(sockets)
+    )  # 콘센트의 어떤 칸에서 기기들이 충전한 총 시간을 구해준다. 그러기 위해 이전에 충전했던 기기의 충전시간 + 충전할 기기의 충전시간을 더해 힙 푸쉬해준다.
 
-things = sorted(list(map(int, input().split())))  # 충전시간이 긴 기기부터 충전하기 위해 정렬한다.
 
-sockets = []  # 충전중인 기기
-t = 0  # 시간
-while 1:
-    while sockets and sockets[0] == t:  # 충전이 다 된 기기들을 소켓에서 모두 빼준다.
-        heapq.heappop(sockets)
-    if not sockets and not things:  # 대기중인 기기도 없고, 충전중인 기기도 없을 경우 종료
-        break
-    while things and len(sockets) < M:  # 소켓에 빈 공간이 있을경우 빈 공강만큼 채워준다.
-        heapq.heappush(sockets, things.pop() + t)  # 충전시간 + 현재 시간을 힙 푸쉬한다.
-    t += 1
-print(t)
+print(max(sockets))

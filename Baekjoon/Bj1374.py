@@ -1,4 +1,4 @@
-# 11000 강의실 배정 G5
+# 1374 강의실 G5
 
 import sys
 
@@ -8,7 +8,7 @@ input = sys.stdin.readline
 N = int(input())
 times = []
 for i in range(N):
-    s, t = map(int, input().split())
+    n, s, t = map(int, input().split())
     times.append((s, t))
 
 
