@@ -53,4 +53,8 @@
 
 ### 1012
 * [Django Log in](./수업내용/1011/Django_day10.md)
+* BOJ PS 1374
+
+### 1013
+* [Django accounts](./수업내용/1011/Django_day11.md)
 * 

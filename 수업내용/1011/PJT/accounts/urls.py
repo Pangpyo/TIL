@@ -9,4 +9,7 @@ urlpatterns = [
     path("logout/", views.logout, name="logout"),
     path("<int:pk>", views.profile, name="profile"),
     path("userlist/", views.userlist, name="userlist"),
+    path("update/", views.update, name="update"),
+    path("password/", views.change_password, name="change_password"),
+    path("delete/", views.delete, name="delete"),
 ]
