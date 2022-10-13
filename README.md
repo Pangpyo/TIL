@@ -57,4 +57,4 @@
 
 ### 1013
 * [Django accounts](./수업내용/1011/Django_day11.md)
-* 
+* BOJ PS 13975
