@@ -17,5 +17,4 @@ for _ in range(int(input())):
         b = heapq.heappop(files)
         heapq.heappush(files, a + b)
         ans += a + b
-    print(files)
     print(ans)
