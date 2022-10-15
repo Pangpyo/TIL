@@ -17,11 +17,11 @@ while homework:  # 모든 과제들의 제출 기간이 끝날 때 까지
     while homework and homework[0][0] == i:  # 해당 날짜에 제출해야만 하는 과제들을 모두 todo로 보낸다.
         day, score = homework.popleft()
         heapq.heappush(todo, (-score, day))  # 우선순위 큐에서 오름차순으로 정렬하기 위해, -를 붙인다.
-    while i > len(done) and todo:
-        score, day = heapq.heappop(todo)
-        if day >= i:
+    while i > len(done) and todo: # 한 과제의 수가 날짜보다 적은 경우(하루에 하나씩만 할 수 있으므로) 해야 할 과제가 목록에 있을 경우 
+        score, day = heapq.heappop(todo) # 해야 할 과제를 하나 꺼내
+        if day >= i: # 마감이 안 지났을 경우에만 한 과제 목록에 넣어준다.
             heapq.heappush(done, (-score, day))
-    while todo:
+    while todo: # 해야 할 일 목록에 현재 한 과제보다 점수가 높은 과제가 있을 경우 교체해준다.
         if -todo[0][0] >= done[0][0]:
             score, day = heapq.heappop(todo)
             heapq.heappop(done)

@@ -58,3 +58,10 @@
 ### 1013
 * [Django accounts](./수업내용/1011/Django_day11.md)
 * BOJ PS 13975
+
+### 1014
+* [Django 기업 과제](https://github.com/Pangpyo/Django)
+* BOJ PS 11725
+
+### 1015
+* BOJ PS 1068
