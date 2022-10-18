@@ -70,5 +70,8 @@
 * BOJ PS 14267
 
 ### 1017
-* [Django accounts](./수업내용/1011/Django_day12.md)
+* [Django image upload](./수업내용/1011/Django_day12.md)
 * BOJ PS 5639
+
+### 1018
+* [Django comment](./수업내용/1011/Django_day13.md)
