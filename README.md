@@ -75,3 +75,8 @@
 
 ### 1018
 * [Django comment](./수업내용/1011/Django_day13.md)
+* BOJ PS 1240
+
+### 1019
+* [Django 1:N](./수업내용/1011/Django_day14.md)
+* BOJ PS 4803

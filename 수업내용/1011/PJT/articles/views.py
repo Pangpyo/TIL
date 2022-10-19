@@ -18,7 +18,9 @@ def create(request):
     if request.method == "POST":
         article_form = ArticleForm(request.POST, request.FILES)
         if article_form.is_valid():
-            article_form.save()
+            article = article_form.save(commit=False)
+            article.user = request.user
+            article.save()
             return redirect("articles:index")
     else:
         article_form = ArticleForm()
@@ -66,6 +68,7 @@ def comments_create(request, pk):
     if comment_form.is_valid():
         comment = comment_form.save(commit=False)
         comment.article = article
+        comment.user = request.user
         comment_form.save()
     return redirect("articles:detail", article.pk)
 

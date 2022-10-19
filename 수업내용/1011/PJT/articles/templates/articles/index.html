@@ -9,10 +9,16 @@
             <div class="col-4">
                 <div class="card">
                     <a href="{% url 'articles:detail' article.pk %}">
-                        <img src="{{ article.image.url }}" class="card-img-top" alt="...">
+                        {% if article.image %}
+                        <img src="{{ article.image.url }}" class="card-img-top" alt="..." style="height: 10rem;">
+                        {% else %}
+                        <img src="{% static 'images/KPJSBY_Cinema.jpg' %}" class="card-img-top" alt="..."
+                            style="height: 10rem;">
+                        {% endif %}
                     </a>
                     <div class="card-body">
                         <h5 class="card-title">{{ article.title }}</h5>
+                        <p class="card-text">작성자 : {{ article.user }}</p>
                     </div>
                 </div>
             </div>
