@@ -83,3 +83,4 @@
 
 ### 1020
 * [Django 기업과제 완료](https://github.com/Pangpyo/Django)
+* BOJ PS 1595
