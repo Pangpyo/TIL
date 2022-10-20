@@ -80,3 +80,6 @@
 ### 1019
 * [Django 1:N](./수업내용/1011/Django_day14.md)
 * BOJ PS 4803
+
+### 1020
+* [Django 기업과제 완료](https://github.com/Pangpyo/Django)
