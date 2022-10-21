@@ -84,3 +84,8 @@
 ### 1020
 * [Django 기업과제 완료](https://github.com/Pangpyo/Django)
 * BOJ PS 1595
+
+### 1021
+* [Django pair project](https://github.com/Pangpyo/KPJSSJ)
+* 요기요 코딩테스트 응시
+* BOJ PS 9934
