@@ -89,3 +89,6 @@
 * [Django pair project](https://github.com/Pangpyo/KPJSSJ)
 * 요기요 코딩테스트 응시
 * BOJ PS 9934
+
+### 1022
+* BOJ PS 10942
