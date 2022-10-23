@@ -1,6 +1,6 @@
 # 10942 팰린드롬? G4
 
-from pprint import pprint
+
 import sys
 
 
