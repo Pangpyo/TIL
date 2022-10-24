@@ -28,14 +28,17 @@ def create(request):
     return render(request, "articles/form.html", context=context)
 
 
+@login_required
 def detail(request, pk):
     article = Article.objects.get(pk=pk)
+    like = article.like_users.all()
     comment_form = CommentForm()
     comments = article.comment_set.all()
     context = {
         "article": article,
         "comment_form": comment_form,
         "comments": comments,
+        "like": like,
     }
     return render(request, "articles/detail.html", context)
 
@@ -56,12 +59,14 @@ def update(request, pk):
     return render(request, "articles/form.html", context)
 
 
+@login_required
 def delete(request, pk):
     article = Article.objects.get(pk=pk)
     article.delete()
     return redirect("articles:index")
 
 
+@login_required
 def comments_create(request, pk):
     article = Article.objects.get(pk=pk)
     comment_form = CommentForm(request.POST)
@@ -73,7 +78,19 @@ def comments_create(request, pk):
     return redirect("articles:detail", article.pk)
 
 
+@login_required
 def comments_delete(request, pk, comment_pk):
     comment = Comment.objects.get(pk=comment_pk)
     comment.delete()
     return redirect("articles:detail", pk)
+
+
+@login_required
+def likes(request, article_pk):
+    article = Article.objects.get(pk=article_pk)
+    if article.like_users.filter(pk=request.user.pk).exists():
+        # if request.user in article.like_users.all():
+        article.like_users.remove(request.user)
+    else:
+        article.like_users.add(request.user)
+    return redirect("articles:detail", article_pk)

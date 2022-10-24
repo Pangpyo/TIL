@@ -22,8 +22,19 @@
             {% endif %}
             <p class="card-text">{{ article.content }}</p>
         </div>
+        <div class="text-center">
+            <p>👍🏻 : {{ like|length }}</p>
+        </div>
         <hr class="m-0">
-        <div class="card-body text-end">
+        <div class="card-body d-flex justify-content-end">
+            <form action="{% url 'articles:likes' article.pk %}" method="POST">
+                {% csrf_token %}
+                {% if request.user in article.like_users.all %}
+                <input class="btn btn-info mx-2 text-white" type="submit" value="좋아요 취소">
+                {% else %}
+                <input class="btn btn-info mx-2 text-white" type="submit" value="좋아요">
+                {% endif %}
+            </form>
             <a class="btn btn-secondary" href="{% url 'articles:index' %}">홈으로</a>
             {% if request.user == article.user %}
             <a class="btn btn-primary" href="{% url 'articles:update' article.pk %}">수정</a>
