@@ -99,3 +99,6 @@
 ### 1024
 * [Django N:M](./수업내용/1011/Django_day15.md)
 * BOJ PS 11055
+
+### 1025
+* BOJ PS 2565
