@@ -16,7 +16,9 @@ def post(start, end):
         return
     div = end + 1
     root = pre[start]
+
     div = bisect_left(pre, root, start + 1, end + 1)
+    print(pre[start + 1 : end + 1], root, div)
     post(start + 1, div - 1)
     post(div, end)
     print(pre[start])
