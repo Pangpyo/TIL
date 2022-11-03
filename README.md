@@ -19,4 +19,4 @@
 
 ### 1101
 * [Trip story PJT](https://github.com/Pangpyo/Trip-story)
-* BOJ PS 2293
+* BOJ PS 2293, programmers PS 스티커 모으기(2)
