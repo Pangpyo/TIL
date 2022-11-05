@@ -73,3 +73,17 @@ SELECT is_drinking '음주 여부', smoking '흡연 여부', ROUND(AVG(weight/((
 FROM healthcare
 WHERE is_drinking != '' AND smoking != ''
 GROUP BY is_drinking, smoking;
+
+
+
+SELECT 
+    DATE_FORMAT(CREATED_AT, '%Y%m') YEAR
+    COUNT(CATEGORY)
+FROM CARD_USAGES
+GROUP BY DATE_FORMAT(CREATED_AT, '%Y%m')
+
+SELECT 
+    COUNT(*)
+FROM CARD_USAGES
+WHERE CATEGORY = 1
+GROUP BY DATE_FORMAT(CREATED_AT, '%Y%m')
