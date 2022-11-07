@@ -36,3 +36,7 @@
 ### 1106
 * [Trip story PJT](https://github.com/Pangpyo/Trip-story)
 * BOJ PS 2143
+
+### 1107
+* [Trip story PJT](https://github.com/Pangpyo/Trip-story)
+* BOJ PS 1759
