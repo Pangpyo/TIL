@@ -44,3 +44,7 @@
 ### 1108
 * [Trip story PJT](https://github.com/Pangpyo/Trip-story)
 * BOJ PS 1654
+
+### 1109
+* [Yammychu PJT](https://github.com/kmk4162/YammyChu)
+* BOJ PS 17144
