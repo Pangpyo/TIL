@@ -59,3 +59,4 @@
 
 ### 1112
 * [LG CNS CODEMONSTER 코딩테스트](./programmers/codemonster.md)
+* BOJ PS 4386 골드1 달성
