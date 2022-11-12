@@ -56,3 +56,6 @@
 ### 1111
 * [Yammychu PJT](https://github.com/kmk4162/YammyChu)
 * BOJ PS 2623
+
+### 1112
+* [LG CNS CODEMONSTER 코딩테스트](./programmers/codemonster.md)
