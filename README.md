@@ -71,3 +71,7 @@
 ### 1115
 * [Yammychu PJT](https://github.com/kmk4162/YammyChu)
 * BOJ PS 1202
+
+### 1116
+* [Yammychu PJT](https://github.com/kmk4162/YammyChu)
+* BOJ PS 12015
