@@ -81,5 +81,8 @@
 * BOJ PS 2156
 
 ### 1118
-* 
+* [Yammychu PJT](https://github.com/kmk4162/YammyChu)
 * BOJ PS 16946
+
+### 1119
+* swea 1220, 5789, 5215
