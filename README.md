@@ -90,3 +90,7 @@
 ### 1120
 * SSAFY 코딩테스트
 * BOJ PS 9084, 1753
+
+### 1121
+* [Yammychu PJT](https://github.com/kmk4162/YammyChu)
+* BOJ PS 1354
