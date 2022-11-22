@@ -94,3 +94,7 @@
 ### 1121
 * [Yammychu PJT](https://github.com/kmk4162/YammyChu)
 * BOJ PS 1354
+
+### 1122
+* [Yammychu PJT](http://yammychu3-env.eba-qj4ecu99.ap-northeast-2.elasticbeanstalk.com/) 프로젝트 마무리
+* BOJ PS 17404
