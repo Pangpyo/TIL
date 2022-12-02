@@ -123,3 +123,6 @@
 
 ### 1201
 * BOJ PS 1057, programmers 정렬 가장 큰 수
+
+### 1202
+* BOJ PS 1922, programmers 성격 유형 검사하기
