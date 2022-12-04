@@ -8,8 +8,6 @@ N = int(input())
 
 nums = []
 
-K = 7
-
 
 def dfs(n):
     nn = n
@@ -27,7 +25,7 @@ for i in range(10):
 
 nums.sort()
 
-if N < len(nums):
-    print(nums[N])
+if N <= len(nums):
+    print(nums[N - 1])
 else:
     print(-1)
