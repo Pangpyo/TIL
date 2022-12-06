@@ -15,13 +15,14 @@
 ## 💻12월 TIL
 
 ### 1201
-* [DRF STUDY](/https://github.com/Pangpyo/DRF-study)
+* [DRF STUDY](https://github.com/Pangpyo/DRF-study/blob/pangpyo/drf/2%ED%9A%8C%EC%B0%A8_%EC%A0%95%EB%A6%AC.md)
 * BOJ PS 1057, programmers 정렬 가장 큰 수
 
 ### 1202
 * BOJ PS 1922, programmers 성격 유형 검사하기
 
 ### 1203
+* [DRF STUDY](https://github.com/Pangpyo/DRF-study/blob/pangpyo/drf/3%ED%9A%8C%EC%B0%A8_%EC%A0%95%EB%A6%AC.md)
 * BOJ PS 1456
 
 ### 1204
@@ -29,3 +30,6 @@
 
 ### 1205
 * BOJ PS 16234
+### 1206
+* * [DRF STUDY](https://github.com/Pangpyo/DRF-study/blob/pangpyo/drf/4%ED%9A%8C%EC%B0%A8_%EC%A0%95%EB%A6%AC.md)
+* BOJ PS 2668
