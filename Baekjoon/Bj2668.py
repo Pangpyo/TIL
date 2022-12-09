@@ -10,12 +10,12 @@ for i in range(1, N + 1):
     nums.append(int(input()))
 
 
-def dfs(n):
+def dfs(n):  # 아래쪽 숫자들에 대해 dfs를 진행한다
     nn = nums[n]
     if visit[nn] == False:
         visit[nn] = True
-        up.add(n)
-        down.add(nn)
+        first.add(n)  # 그 때 n과 nn을 각각 저장해준다
+        second.add(nn)
         dfs(nn)
 
 
@@ -23,16 +23,15 @@ visit = [False] * (N + 1)
 ans = []
 
 for i in range(1, N + 1):
-    up = set()
-    down = set()
+    first = set()
+    second = set()
     dfs(i)
-    if up == down:
-        for x in down:
-            ans.append(x)
-    # 만약 같지 않다면, 들어온 visited 다시 False로 돌린다.
-    else:
-        for x in down:
-            visit[x] = False
-ans.sort()
+    if first == second:  # 같은 경우에만 답에 더해준다.
+        for d in second:
+            ans.append(d)
+    else:  # 다른 경우에는 visit을 초기화시킨다.
+        for d in second:
+            visit[d] = False
+ans.sort()  # 정렬한다
 print(len(ans))
-print(*ans, sep="\n")
+print(*ans, sep="\n")  # 한 줄씩 출력
