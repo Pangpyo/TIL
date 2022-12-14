@@ -32,7 +32,7 @@
 * BOJ PS 16234
 
 ### 1206
-* * [DRF STUDY](https://github.com/Pangpyo/DRF-study/blob/pangpyo/drf/4%ED%9A%8C%EC%B0%A8_%EC%A0%95%EB%A6%AC.md)
+* [DRF STUDY](https://github.com/Pangpyo/DRF-study/blob/pangpyo/drf/4%ED%9A%8C%EC%B0%A8_%EC%A0%95%EB%A6%AC.md)
 * BOJ PS 2668
 
 ### 1207
@@ -44,8 +44,11 @@
 ### 1209
 * BOJ PS 15503
 
-### 1210
+### 1211
 * BOJ PS 1722
 
-### 1211
+### 1212
 * BOJ PS 1360
+
+### 1214
+* BOJ PS 2589
