@@ -27,6 +27,7 @@ def bfs(start):
             visit[nn] = 1
             if d + 1 == K:
                 ans.append(nn)
+                continue
             que.append((nn, d + 1))
     if ans:
         ans.sort()

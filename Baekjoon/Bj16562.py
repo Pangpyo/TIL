@@ -11,33 +11,13 @@ cost = []
 for i, v in enumerate(list(map(int, input().split()))):
     cost.append((i + 1, v))
 cost.sort(key=lambda x: x[1])
-parent = [i for i in range(0, N + 1)]
-
-
-def find(x):
-    if x == parent[x]:
-        return x
-    else:
-        y = find(parent[x])
-        parent[x] = y
-        return y
-
-
-def union(x, y):
-    x = find(x)
-    y = find(y)
-    if x != y:
-        parent[max(x, y)] = min(x, y)
 
 
 graph = [[] for _ in range(N + 1)]
 for i in range(M):
     u, v = map(int, input().split())
-    union(u, v)
     graph[u].append(v)
     graph[v].append(u)
-for p in parent:
-    find(p)
 
 
 visit = [0] * (N + 1)
