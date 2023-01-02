@@ -10,14 +10,12 @@ def answer():
     ans = 0
     while start <= end:
         mid = (start + end) // 2
-
         pre = x[0]
         cnt = 1
         for i in range(1, n):
             if x[i] - pre >= mid:
                 pre = x[i]
                 cnt += 1
-        print(start, end, cnt)
         if cnt >= s:
             start = mid + 1
             ans = mid
