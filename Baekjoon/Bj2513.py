@@ -32,7 +32,7 @@ def bus(L: list):
             else:
                 k -= L[-1][1]  # 더 적은 경우 해당 지점의 학생 수를 모두 데리고 온 후 그 지점을 리스트에서 pop
                 L.pop()
-
+            print(L, k)
     return a * 2  # 왕복이므로 *2
 
 
