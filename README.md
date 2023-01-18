@@ -24,3 +24,4 @@
 * HTML, CSS, JS
 * Django
 * DRF
+* Java
