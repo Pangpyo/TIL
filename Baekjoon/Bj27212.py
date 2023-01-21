@@ -1,12 +1,10 @@
+# 27212 미팅 G3
 # C번 미팅
-# 알고리즘 분류 : dp, 배낭 문제
-# 예상 난이도 : 골드5~4
 
-from pprint import pprint
 import sys
 
 
-sys.stdin = open("input.txt")
+input = sys.stdin.readline
 
 n, m, c = map(int, input().split())
 
@@ -29,6 +27,4 @@ for i in range(1, n + 1):
         # D그래프를 기준으로 대각선 + i j 학생의 만족도, 왼쪽, 위쪽중 최대값을 구한다
 
 
-pprint(q)
-pprint(D)
 print(D[-1][-1])  # 최대값 출력

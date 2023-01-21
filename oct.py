@@ -54,10 +54,8 @@ while 1:
         "호빈",
         "준환",
         "은빈",
-        "선영",
         "다영",
         "우열",
-        "재윤",
         "문경",
         "다겸",
     ]
@@ -74,8 +72,6 @@ while 1:
             break
         nowmembers.append(temps)
     if bp:
-        for a in range(6):
+        for a in range(5):
             print(f"{a+1}조: {nowmembers[a][0]} {nowmembers[a][1]}")
         break
-
-print(f"{random.choice(range(1, 7))}조 면제")
