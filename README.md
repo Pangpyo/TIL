@@ -18,8 +18,8 @@
 * [Programmers](./programmers/)
 
 ## ✏️What I Learned
-* 파이썬
-* 알고리즘
+* Python
+* Algorithm
 * SQL, ORM
 * HTML, CSS, JS
 * Django
