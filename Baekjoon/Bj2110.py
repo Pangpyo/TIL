@@ -1,6 +1,6 @@
-import sys
-
 # 2110 공유기 설치 G4
+from bisect import bisect_left as bl
+import sys
 
 input = sys.stdin.readline
 
@@ -15,13 +15,14 @@ while s <= e:
     mid = (s + e) // 2
     cnt = 1
     pre = 0
-    for i in range(1, n):
-        if P[i] - P[pre] >= mid:
+    while 1:
+        pre = bl(P, mid + P[pre])
+        if pre >= n:
+            break
+        else:
             cnt += 1
-            pre = i
     if cnt >= m:
         s = mid + 1
-
         ans = mid
     else:
         e = mid - 1
