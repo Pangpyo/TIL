@@ -18,6 +18,4 @@ def bt(n, a, b):
 
 
 bt(0, 1, 0)
-
-
 print(min(diffs))
