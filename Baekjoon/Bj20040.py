@@ -8,7 +8,6 @@ input = sys.stdin.readline
 n, m = map(int, input().split())
 
 parent = [i for i in range(0, n)]
-ans = 0
 
 
 def find(x):
@@ -29,14 +28,18 @@ def union(x, y, i):
     y = find(y)
     if x != y:
         parent[max(x, y)] = min(x, y)
+        return False
     else:
-        if ans == 0:
-            ans = i
+        return True
 
 
 # 노드 x와 노드 y가 연결되기 때문에, 노드 x가 포함된 집합과 노드 y가 포함된 집합을 합치는 연산
 
+ans = 0
 for i in range(m):
     u, v = map(int, input().split())
-    union(u, v, i + 1)
+    if ans:
+        continue
+    if union(u, v, i + 1):
+        ans = i + 1
 print(ans)
