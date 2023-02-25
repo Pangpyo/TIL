@@ -17,4 +17,4 @@ for i in range(N):
     m.append(x - y)
 p.sort()
 m.sort()
-print(max(p[-1] - p[0], m[-1], m[0]))
+print(max(p[-1] - p[0], m[-1]- m[0]))
