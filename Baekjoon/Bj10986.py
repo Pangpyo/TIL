@@ -15,5 +15,4 @@ for i in range(N):
     if nums[D[i]]:
         ans += nums[D[i]] - 1
 
-
 print(ans)
