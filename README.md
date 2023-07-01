@@ -12,6 +12,9 @@
 * [2023년 02월](./202302TIL.md)
 * [2023년 03월](./202303TIL.md)
 * [2023년 04월](./202304TIL.md)
+* [2023년 05월](./202305TIL.md)
+* [2023년 06월](./202306TIL.md)
+* [2023년 07월](./202307TIL.md)
 
 ## 💾Problem solve every day
 * [Codeip Python 기초 100제](./Python_codeup/README.md)
@@ -22,10 +25,9 @@
 ## ✏️What I Learned
 * Python
 * Algorithm
-* SQL, ORM
+* MySQL, ORM
 * HTML, CSS, JS
-* Django
-* DRF
+* Django, DRF
 * Java
 * JSP, servlet
 * Spring Framework, Spring Boot
