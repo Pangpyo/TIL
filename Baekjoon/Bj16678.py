@@ -19,7 +19,7 @@ def solution() :
         elif diff == 0 :
             h += 1
         i += 1
-        
+
     return ans
 
 if __name__ == "__main__" :
