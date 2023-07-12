@@ -17,7 +17,7 @@
 * [2023년 07월](./202307TIL.md)
 
 ## 💾Problem solve every day
-* [Codeip Python 기초 100제](./Python_codeup/README.md)
+* [Codeup Python 기초 100제](./Python_codeup/README.md)
 * [SWEA](./SWEA/README.md)
 * [Baekjoon](./Baekjoon/README.md)
 * [Programmers](./programmers/)
