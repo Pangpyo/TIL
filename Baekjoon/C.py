@@ -10,3 +10,5 @@ if N:
     print(cnt)
 else:
     print(0)
+
+print(3*(10**13) > 2**64)
