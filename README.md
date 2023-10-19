@@ -28,8 +28,9 @@
 * Algorithm
 * MySQL, ORM
 * HTML, CSS, JS
-* Django, DRF
+* Vue.js, React
+* Django, DRF, FastAPI
 * Java
 * JSP, servlet
 * Spring Framework, Spring Boot
-* My Batis
+* My Batis, JPA
