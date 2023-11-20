@@ -1184,3 +1184,5 @@
 * [2224](../PS_java/Bj2224.java) 명제 증명 G4
 
 * [5588](../PS_java/Bj5588.java) 별자리 찾기 G4
+
+* [14567](./Bj14567.py) 선수과목 (Prerequisite) G5
