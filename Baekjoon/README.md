@@ -1220,3 +1220,5 @@
 * [20955](./Bj20955.py) 민서의 응급 수술 G4 
 
 * [14615](./Bj14615.py) Defend the CTP!!! G4
+
+* [17025](./Bj17025.py) Icy Perimeter G5
