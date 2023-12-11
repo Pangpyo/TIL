@@ -1222,3 +1222,5 @@
 * [14615](./Bj14615.py) Defend the CTP!!! G4
 
 * [17025](./Bj17025.py) Icy Perimeter G5
+
+* [2405](./Bj2405.py) 세 수, 두 M G4
