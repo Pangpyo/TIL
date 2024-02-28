@@ -1376,3 +1376,5 @@
 * [23742](./Bj23742.py) player-based Team G4
 
 * [14863](./Bj14863.py) 서울에서 경산까지 G4
+
+* [28703](./Bj28703.py) Double it G3
