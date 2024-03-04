@@ -42,3 +42,4 @@
 * Spring Framework, Spring Boot
 * My Batis, JPA
 * AWS EC2, Docker, Jenkins
+* [Computer Science](./CS/CS.md)
