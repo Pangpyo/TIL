@@ -3,7 +3,7 @@
 def solution():
     S = input()
     sums, l, r = 0, 0, 0
-    for i, s in enumerate(S):
+    for s in S:
         if s == '(':
             sums += 1
             l += 1
@@ -15,9 +15,6 @@ def solution():
         elif sums == 0:
             l = 0
     return l
-
-    
-    
 
 if __name__ == "__main__":
     print(solution())
