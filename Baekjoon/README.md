@@ -1454,3 +1454,5 @@
 * [9177](./Bj9177.py) 단어 섞기 G4
 
 * [17839](./Bj17839.py) Baba is Rabbit G5
+
+* [12004](./Bj12004.py) Closing the Farm (Silver) G4
