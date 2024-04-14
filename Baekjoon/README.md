@@ -1456,3 +1456,5 @@
 * [17839](./Bj17839.py) Baba is Rabbit G5
 
 * [12004](./Bj12004.py) Closing the Farm (Silver) G4
+
+* [1749](./Bj1749.py) 점수 따먹기 G4
