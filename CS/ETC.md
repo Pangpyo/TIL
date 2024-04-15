@@ -64,39 +64,30 @@
 ### GC의 장단점에 대해 설명해 주세요.
 * 메모리를 관리해주어 개발자의 부담이 줄어들지만, 이 GC가 언제 실행될지 사용자가 예측하기 힘드며, GC의 실행동안 실행이 잠시 멈추는 문제가 생긴다.
 
-# 손코딩
+## 32비트와 64비트의 차이는 무엇인가요?
+* 메모리 주소 공간이 최대 2의32승이냐, 2의 64승이냐의 차이이다.
+### 32비트에서 가용한 메모리의 크기는 최대 4GB라고 하는데, 왜 그런걸까요?
+* 2의 32승이 4GB이기 때문에
+### 포트번호가 최대 65526인 이유는?
+* 포트번호가 16비트로 표현되기 때문이다
+## 인증과 인가의 차이에 대해 설명해 주세요.
+* 인증: 사용자의 신원을 확인하는 과정.
+* 인가: 인증된 사용자가 특정 작업을 수행 할 수 있는지 확인하는 과정.
+### OAuth가 무엇인지 설명하고, 이것은 인증인지 인가인지에 대해 설명해 주세요.
+* 다양한 플랫폼에서 인증을 가능하게 하고, 해당 서비스에서 인가를 관리해주는 것. 인증과 인가를 포함한다. 
 
-## 두 문자열 p와 q가 주어졌을 때 p와 q의 Edit Distance가 1이하인지 여부를 판별하는 코드를 작성하시오(Edit Distance란 문자열 p와 q가 같아지기 위한 insert, remove, 혹은 replace횟수를 말한다.)
-```python
-def solution(p, q):
-  p_len = len(p)
-  q_len = len(q)
-  len_diff = abs(p_len - q_len)
-  if len_diff == 0:
-    for i, p_char in enumerate(p)
-      if p_char != q[i]:
-        return False
-    return True
-  elif len_diff == 1:
-    if p_len > q_len:
-      shot_word = q
-      long_word = p
-    else:
-      shot_word = p
-      long_word = q
-    edit_distance = 0
-    s_idx = 0
-    l_idx = 0
-    while s_idx < len(shot_word) and l_idx < len(long_idx):
-      if shot_word[s_idx] == long_word[l_idx]:
-        s_idx += 1
-        l_idx += 1
-      else:
-        l_idx += 1
-        edit_distance += 1
-      if edit_distance > 1:
-        return False
-    return True
-  else:
-    return False
-```
+
+## JWT 인증 방식이 무엇인가요?
+* Jason Web Token, 사용자 인증을 위해 토큰을 통해 사용자의 신원을 확인하고, 자원에 대한 접근을 제어하는 방법이다. Stateless하다. Header에는 토큰의 유형과 해싱 알고리즘을, Payload에는 사용자에 대한 클레임(ID, 유효기간)을 포함하고, Signature에는 Header와 Payload를 BASE64로 인코딩하여, 해싱한 값을 다시 BASE64로 인코딩하여 만들어진다. 이는 유효성 검사를 위해 사용된다.
+### 만약 Access Token이 탈취되면, 어떻게 대응할 수 있을까요?
+* Access Token이 탈취되면 직접적으로 이를 막을 수 있는 방법은 없다. 대신 Access Token에 유효기간을 두어 이를 탈취하더라도 유효기간 이후 사용 할 수 없게 할 수 있다.
+### 반대로 Refresh Token이 탈취되면, 어떻게 대응해야 할까요?
+* RefreshToken은 Access Token요청 시 클라이언트 계정 정보를 함께 포함해야하기에, 이만 탈취당했을 때는 문제가 없다. 동시에 탈취되는 경우, IP를 확인하여 비정상적인 활동을 감지하고 액세스토큰과 리프레쉬 토큰을 만료시키고 새로 생성하거나, 사용자에게 알리는 등의 조치를 취할 수 있다.
+
+## 암호화 알고리즘에 대해 설명해 주세요.
+* 중요한 정보를 제3자가 읽을 수 없는 형태로 변환하여 정보의 안정성을 보장하는 기술.
+### AES
+* 대칭키 암호화 방식으로, 바이트 값으 대체를 위한 S-Box라는 대칭표를 가지고 있다. 이를 통해 바이트를 변환하는 SubByte, 행을 회전하는 ShiftRows, 각 컬럼에 대해 행렬곱셈을 수행하는 MixColumn의 과정으로 수행되며, 복호화는 반대 순서로 진행된다.
+### RSA
+* 비대칭키 암호화 방식으로, 공개키와 개인키 두 가지 키를 사용한다. 두 소수 p, q를 준비하고, p-1, q-1과 서로소인 정수 e를 준비한다. ed를 (p-1)(q-1)으로 나눈 나머지가 1이 되도록 하는 d를 아, N=pq인 N과 e를 공개한다. 이를 통해 암호화를 하며, d를 통해 복호화를 한다. 나머지 값은 파기한다.
+# 손코딩
