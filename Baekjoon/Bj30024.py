@@ -16,7 +16,7 @@ def solution():
                 visit[i][j] = 1
                 heappush(heap, (-corns[i][j], i, j))
     K = int(input())
-    print(*visit, sep='\n')
+    
     answer = []
     dx = (-1, 0, 1, 0)
     dy = (0, 1, 0, -1)
