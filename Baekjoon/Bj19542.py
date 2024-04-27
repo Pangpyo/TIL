@@ -5,6 +5,7 @@ import sys
 
 def solution():
     input = sys.stdin.readline
+    sys.setrecursionlimit(10**6)
     N, S, D = map(int, input().split())
     graph = [[] for _ in range(N+1)]
     to_leaf = [-1]*(N+1)
@@ -29,8 +30,10 @@ def solution():
         for nn in graph[n]:
             if visit[nn]:
                 continue
-            
-    print(visit)
+            if to_leaf[nn] >= D:
+                dfs(nn)
+    dfs(S)
+    answer = (sum(visit)-1)*2
     return answer
 
 if __name__ == "__main__":
