@@ -1,6 +1,5 @@
 # 2938 3으로 나누어 떨어지지 않는 배열 G5
 
-
 def solution():
     N = int(input())
     nums = [[], [], []]
