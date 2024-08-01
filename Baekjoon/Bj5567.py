@@ -28,7 +28,6 @@ def solution():
             answer += 1
             if visit[nn] < 2:
                 que.append(nn)
-    print(visit)
     return answer
 
 if __name__ == "__main__":
