@@ -24,6 +24,10 @@
 * [2024년 02월](./202402TIL.md)
 * [2024년 03월](./202403TIL.md)
 * [2024년 04월](./202404TIL.md)
+* [2024년 05월](./202405TIL.md)
+* [2024년 06월](./202406TIL.md)
+* [2024년 07월](./202407TIL.md)
+* [2024년 08월](./202408TIL.md)
 
 ## 💾Problem solve every day
 * [Codeup Python 기초 100제](./Python_codeup/README.md)
@@ -39,6 +43,7 @@
 * Vue.js, React
 * Django, DRF, FastAPI
 * Java
+* Kotlin
 * JSP, servlet
 * Spring Framework, Spring Boot
 * My Batis, JPA
