@@ -9,4 +9,7 @@
   * n^2의 dp로 해결 가능.
 * [15810](./src/main/kotlin/Bj15810.kt) 풍선 공장 S2
   * 이분탐색으로 해결 가능한 문제. 오버플로우에 주의
-* [20922](/src/main/kotlin/Bj20922.kt) 겹치는 건 싫어 S1
+* [20922](./src/main/kotlin/Bj20922.kt) 겹치는 건 싫어 S1
+  * 큐를 활용한 문제
+* [18113](./src/main/kotlin/Bj18113.kt) 그르다 김가놈 S2
+  * 이분탐색.
