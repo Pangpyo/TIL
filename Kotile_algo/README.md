@@ -15,3 +15,5 @@
   * 이분탐색.
 * [3187](./src/main/kotlin/Bj3187.kt) 양치기 꿍 S1
   * 플러드 필 + 개수세기 문제
+* [1890](./src/main/kotlin/Bj1890.kt) 점프 S1
+  * dp문제
