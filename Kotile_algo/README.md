@@ -17,3 +17,5 @@
   * 플러드 필 + 개수세기 문제
 * [1890](./src/main/kotlin/Bj1890.kt) 점프 S1
   * dp문제
+* [7562](./src/main/kotlin/Bj7562.kt) 나이트의 이동 S1
+  * 8방향 bfs문제
