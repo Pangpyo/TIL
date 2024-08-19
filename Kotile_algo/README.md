@@ -19,3 +19,5 @@
   * dp문제
 * [7562](./src/main/kotlin/Bj7562.kt) 나이트의 이동 S1
   * 8방향 bfs문제
+* [25916](./src/main/kotlin/Bj25916.kt) 싫은데요 S1
+  * 슬라이딩 윈도우 문제
